@@ -1,0 +1,8 @@
+{
+  "name": "أوتو بارتس برو | معرض قطع غيار السيارات",
+  "description": "منصة ومعرض متكامل لبيع قطع غيار السيارات الأصلية والمعتمدة، فحص التوافق برقم الهيكل، حجز التركيب والطلب السريع.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

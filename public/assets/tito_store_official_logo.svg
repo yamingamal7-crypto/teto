@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Sharp contrast drop shadow for emblem -->
+    <filter id="redGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#dc2626" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Solid Pitch Black Background -->
+  <rect width="500" height="500" fill="#000000"/>
+
+  <!-- Geometric T Emblem Group -->
+  <g transform="translate(100, 90)">
+    <!-- Top-left white wing/crossbar segment -->
+    <polygon points="28,36 186,36 122,100 66,100" fill="#ffffff" />
+
+    <!-- Stem of the T (White front facet) -->
+    <polygon points="130,116 204,116 204,228 160,246 130,246" fill="#ffffff" />
+
+    <!-- Stem of the T (Light gray 3D right facet) -->
+    <polygon points="204,116 204,228 174,242 174,124" fill="#d4d4d8" opacity="0.3" />
+
+    <!-- Dynamic Sharp Red Angled Diagonal Slash and Chevron Head -->
+    <!-- Top right red horizontal chevron -->
+    <polygon points="0,0 306,0 256,66 220,66" fill="#dc2626" />
+    
+    <!-- Red diagonal cross cutting across the T -->
+    <polygon points="256,66 220,66 74,212 74,180 186,66" fill="#dc2626" />
+
+    <!-- Accurate continuous red bolt matching user logo -->
+    <path d="M 0,0 L 306,0 L 256,66 L 208,66 L 74,202 L 74,180 L 176,78 L 196,78 L 236,36 L 28,36 Z" fill="#dc2626" filter="url(#redGlow)" />
+  </g>
+
+  <!-- Brand Typography: TITO -->
+  <!-- T in vivid red, ITO in pure white with rounded bold geometric styling -->
+  <g transform="translate(68, 380)">
+    <!-- Letter T (Red) -->
+    <path d="M 0,0 L 72,0 L 72,22 L 48,22 L 48,76 L 24,76 L 24,22 L 0,22 Z" fill="#dc2626" />
+
+    <!-- Letter I (White) -->
+    <path d="M 96,0 L 122,0 L 122,76 L 96,76 Z" fill="#ffffff" />
+
+    <!-- Letter T (White) -->
+    <path d="M 146,0 L 218,0 L 218,22 L 194,22 L 194,76 L 170,76 L 170,22 L 146,22 Z" fill="#ffffff" />
+
+    <!-- Letter O (White with rounded geometric corners) -->
+    <path d="M 264,0 C 298,0 318,12 318,38 C 318,64 298,76 264,76 C 230,76 210,64 210,38 C 210,12 230,0 264,0 Z M 264,22 C 248,22 238,28 238,38 C 238,48 248,54 264,54 C 280,54 290,48 290,38 C 290,28 280,22 264,22 Z" fill="#ffffff" />
+  </g>
+</svg>
